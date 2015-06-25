@@ -1,0 +1,58 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '6.1'
+
+#安装方法
+#1.Podfile目录执行pod update
+#2.完成后，添加所有pod子lib到libpods里面
+#3.添加openssl工程里面的.a到openssl的lib里面
+#4.修改block－kvo的build setting中的ENABLE_STRICT_OBJC_MSGSEND为NO
+#5.block-kvo的头文件写法有问题使用了new作为参数，可以修改成newValue
+
+#collectionView layout
+#pod 'CSStickyHeaderFlowLayout'#,'0.2.4'#需要iOS7 up
+pod 'CHTCollectionViewWaterfallLayout'#,'0.8'
+
+#base64
+pod 'NSData+Base64'#,'1.0.0'
+
+#json
+pod 'JSONModel'#,'1.0.1'
+
+#autolayout
+pod 'PureLayout'#,'2.0.5'
+
+#block
+pod 'BlocksKit'#,'2.2.5'
+pod 'Block-KVO'#,'2.2.1'
+
+#network
+pod 'AFNetworking'#,'2.5.2'
+pod 'AFDownloadRequestOperation'#,'2.0.1'
+pod 'OpenSSL','1.0.109'
+
+#decompression
+pod 'ZipArchive'#,'1.4.0'
+
+#刷新
+pod 'SDWebImage'#,'3.7.1'
+pod 'SVPullToRefresh'#,'0.4.1'
+pod 'MBProgressHUD'#,'0.9'
+pod 'SVProgressHUD'#,'1.1.2'
+pod 'Toast'#,'2.4'
+
+#音频
+pod 'EZAudio'#,'0.0.6'
+
+#图形
+pod 'FLAnimatedImage'#,'1.0.8'
+pod 'iCarousel'#,'1.8.1'
+pod 'libqrencode'#,'3.4.2'
+#pod 'ZBarSDK','1.3.1'，单独添加了lib
+
+#log
+pod 'CocoaLumberjack'#,'1.9.2'
+
+#other
+pod 'EasyTableView'#,'1.1.1'
+pod 'APParallaxHeader'#,'0.1.6'
+

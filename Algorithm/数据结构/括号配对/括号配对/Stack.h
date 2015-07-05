@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-//数组实现
+//栈的数组实现
 
 @interface Stack : NSObject
 

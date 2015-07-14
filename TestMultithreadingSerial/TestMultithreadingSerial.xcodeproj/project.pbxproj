@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA7E89D91B51377A00D58F0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E89D81B51377A00D58F0D /* main.m */; };
+		AA7E89DC1B51377A00D58F0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E89DB1B51377A00D58F0D /* AppDelegate.m */; };
+		AA7E89DF1B51377A00D58F0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E89DE1B51377A00D58F0D /* ViewController.m */; };
+		AA7E89E21B51377A00D58F0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7E89E01B51377A00D58F0D /* Main.storyboard */; };
+		AA7E89E41B51377A00D58F0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7E89E31B51377A00D58F0D /* Images.xcassets */; };
+		AA7E89E71B51377A00D58F0D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA7E89E51B51377A00D58F0D /* LaunchScreen.xib */; };
+		AA7E89F31B51377A00D58F0D /* TestMultithreadingSerialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E89F21B51377A00D58F0D /* TestMultithreadingSerialTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA7E89ED1B51377A00D58F0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA7E89CB1B51377900D58F0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7E89D21B51377A00D58F0D;
+			remoteInfo = TestMultithreadingSerial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA7E89D31B51377A00D58F0D /* TestMultithreadingSerial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMultithreadingSerial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7E89D71B51377A00D58F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7E89D81B51377A00D58F0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA7E89DA1B51377A00D58F0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA7E89DB1B51377A00D58F0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA7E89DD1B51377A00D58F0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA7E89DE1B51377A00D58F0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA7E89E11B51377A00D58F0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA7E89E31B51377A00D58F0D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA7E89E61B51377A00D58F0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AA7E89EC1B51377A00D58F0D /* TestMultithreadingSerialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMultithreadingSerialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7E89F11B51377A00D58F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7E89F21B51377A00D58F0D /* TestMultithreadingSerialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMultithreadingSerialTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA7E89D01B51377A00D58F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7E89E91B51377A00D58F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA7E89CA1B51377900D58F0D = {
+			isa = PBXGroup;
+			children = (
+				AA7E89D51B51377A00D58F0D /* TestMultithreadingSerial */,
+				AA7E89EF1B51377A00D58F0D /* TestMultithreadingSerialTests */,
+				AA7E89D41B51377A00D58F0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA7E89D41B51377A00D58F0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E89D31B51377A00D58F0D /* TestMultithreadingSerial.app */,
+				AA7E89EC1B51377A00D58F0D /* TestMultithreadingSerialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA7E89D51B51377A00D58F0D /* TestMultithreadingSerial */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E89DA1B51377A00D58F0D /* AppDelegate.h */,
+				AA7E89DB1B51377A00D58F0D /* AppDelegate.m */,
+				AA7E89DD1B51377A00D58F0D /* ViewController.h */,
+				AA7E89DE1B51377A00D58F0D /* ViewController.m */,
+				AA7E89E01B51377A00D58F0D /* Main.storyboard */,
+				AA7E89E31B51377A00D58F0D /* Images.xcassets */,
+				AA7E89E51B51377A00D58F0D /* LaunchScreen.xib */,
+				AA7E89D61B51377A00D58F0D /* Supporting Files */,
+			);
+			path = TestMultithreadingSerial;
+			sourceTree = "<group>";
+		};
+		AA7E89D61B51377A00D58F0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E89D71B51377A00D58F0D /* Info.plist */,
+				AA7E89D81B51377A00D58F0D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA7E89EF1B51377A00D58F0D /* TestMultithreadingSerialTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E89F21B51377A00D58F0D /* TestMultithreadingSerialTests.m */,
+				AA7E89F01B51377A00D58F0D /* Supporting Files */,
+			);
+			path = TestMultithreadingSerialTests;
+			sourceTree = "<group>";
+		};
+		AA7E89F01B51377A00D58F0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E89F11B51377A00D58F0D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA7E89D21B51377A00D58F0D /* TestMultithreadingSerial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7E89F61B51377A00D58F0D /* Build configuration list for PBXNativeTarget "TestMultithreadingSerial" */;
+			buildPhases = (
+				AA7E89CF1B51377A00D58F0D /* Sources */,
+				AA7E89D01B51377A00D58F0D /* Frameworks */,
+				AA7E89D11B51377A00D58F0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestMultithreadingSerial;
+			productName = TestMultithreadingSerial;
+			productReference = AA7E89D31B51377A00D58F0D /* TestMultithreadingSerial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA7E89EB1B51377A00D58F0D /* TestMultithreadingSerialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA7E89F91B51377A00D58F0D /* Build configuration list for PBXNativeTarget "TestMultithreadingSerialTests" */;
+			buildPhases = (
+				AA7E89E81B51377A00D58F0D /* Sources */,
+				AA7E89E91B51377A00D58F0D /* Frameworks */,
+				AA7E89EA1B51377A00D58F0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA7E89EE1B51377A00D58F0D /* PBXTargetDependency */,
+			);
+			name = TestMultithreadingSerialTests;
+			productName = TestMultithreadingSerialTests;
+			productReference = AA7E89EC1B51377A00D58F0D /* TestMultithreadingSerialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA7E89CB1B51377900D58F0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ethan;
+				TargetAttributes = {
+					AA7E89D21B51377A00D58F0D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					AA7E89EB1B51377A00D58F0D = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = AA7E89D21B51377A00D58F0D;
+					};
+				};
+			};
+			buildConfigurationList = AA7E89CE1B51377900D58F0D /* Build configuration list for PBXProject "TestMultithreadingSerial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA7E89CA1B51377900D58F0D;
+			productRefGroup = AA7E89D41B51377A00D58F0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA7E89D21B51377A00D58F0D /* TestMultithreadingSerial */,
+				AA7E89EB1B51377A00D58F0D /* TestMultithreadingSerialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA7E89D11B51377A00D58F0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7E89E21B51377A00D58F0D /* Main.storyboard in Resources */,
+				AA7E89E71B51377A00D58F0D /* LaunchScreen.xib in Resources */,
+				AA7E89E41B51377A00D58F0D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7E89EA1B51377A00D58F0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA7E89CF1B51377A00D58F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7E89DF1B51377A00D58F0D /* ViewController.m in Sources */,
+				AA7E89DC1B51377A00D58F0D /* AppDelegate.m in Sources */,
+				AA7E89D91B51377A00D58F0D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7E89E81B51377A00D58F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7E89F31B51377A00D58F0D /* TestMultithreadingSerialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA7E89EE1B51377A00D58F0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA7E89D21B51377A00D58F0D /* TestMultithreadingSerial */;
+			targetProxy = AA7E89ED1B51377A00D58F0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA7E89E01B51377A00D58F0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7E89E11B51377A00D58F0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA7E89E51B51377A00D58F0D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA7E89E61B51377A00D58F0D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA7E89F41B51377A00D58F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA7E89F51B51377A00D58F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA7E89F71B51377A00D58F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestMultithreadingSerial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA7E89F81B51377A00D58F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestMultithreadingSerial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA7E89FA1B51377A00D58F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestMultithreadingSerialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestMultithreadingSerial.app/TestMultithreadingSerial";
+			};
+			name = Debug;
+		};
+		AA7E89FB1B51377A00D58F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestMultithreadingSerialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestMultithreadingSerial.app/TestMultithreadingSerial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA7E89CE1B51377900D58F0D /* Build configuration list for PBXProject "TestMultithreadingSerial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7E89F41B51377A00D58F0D /* Debug */,
+				AA7E89F51B51377A00D58F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA7E89F61B51377A00D58F0D /* Build configuration list for PBXNativeTarget "TestMultithreadingSerial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7E89F71B51377A00D58F0D /* Debug */,
+				AA7E89F81B51377A00D58F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA7E89F91B51377A00D58F0D /* Build configuration list for PBXNativeTarget "TestMultithreadingSerialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7E89FA1B51377A00D58F0D /* Debug */,
+				AA7E89FB1B51377A00D58F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA7E89CB1B51377900D58F0D /* Project object */;
+}

@@ -1,0 +1,5 @@
+module LibWorld [system] {
+    header "Library/world.h"
+    header "Library/ObjcWorld.h"
+    export *
+}
